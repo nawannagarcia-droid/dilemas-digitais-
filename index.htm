@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dilemas Digitais</title>
+
+    <style>
+        body {
+            background-color: #eee8f5;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #39044e;
+            color: #FFFFFF;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto 30px auto;
+            padding: 30px;
+            border-radius: 0 0 15px 15px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        header button {
+            background-color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 8px 15px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        main {
+            background-color: #d4adcf;
+            color: #511863;
+            display: flex;
+            align-items: center;
+            margin: 0 auto 30px auto;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            max-width: 900px;
+            border-radius: 15px;
+        }
+
+        article {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            width: 90%;
+            gap: 25px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        article div:first-child {
+            flex: 1;
+        }
+
+        article h2 {
+            color: #39044e;
+        }
+
+        article p {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .artigo-autor {
+            font-weight: bold;
+            color: #6b257d !important;
+        }
+
+        .imagem {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        article button {
+            border: none;
+            background-color: #eee;
+            padding: 8px 12px;
+            border-radius: 20px;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+
+        article button:hover {
+            background-color: #d4adcf;
+        }
+
+        footer {
+            background-color: #390266;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        /* Ajuste para celulares */
+        @media (max-width: 700px) {
+            article {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .imagem {
+                width: 180px;
+                height: 180px;
+            }
+
+            header h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>💻 Dilemas Digitais</h1>
+
+        <p>
+            Tecnologia faz parte da nossa vida. Mas como podemos
+            utilizá-la de maneira consciente, segura e responsável?
+        </p>
+
+        <button>❤️ <span>0</span></button>
+        <button>👍 <span>0</span></button>
+    </header>
+
+
+    <!-- DILEMA 1 -->
+    <main>
+        <article>
+
+            <div>
+                <h2>🔐 Privacidade nas redes sociais</h2>
+
+                <p class="artigo-autor">
+                    Por: Nawanna Garcia
+                </p>
+
+                <p>
+                    Compartilhar informações pessoais na internet pode
+                    parecer algo normal, mas nossos dados podem ser
+                    utilizados por empresas, aplicativos ou até mesmo
+                    pessoas mal-intencionadas.
+                </p>
+
+                <p>
+                    <strong>Proposta de solução:</strong>
+                    evitar publicar informações como endereço, telefone
+                    e documentos. Também é importante utilizar senhas
+                    fortes, ativar a autenticação em dois fatores e
+                    verificar as configurações de privacidade das redes
+                    sociais.
+                </p>
+
+                <button>❤️ <span>0</span></button>
+                <button>👎 <span>0</span></button>
+            </div>
+
+            <div>
+                <img src="privacidade.jpeg"
+                    alt="Pessoa utilizando um computador com símbolo de segurança"
+                    class="imagem">
+            </div>
+
+        </article>
+    </main>
+
+
+    <!-- DILEMA 2 -->
+    <main>
+        <article>
+
+            <div>
+                <h2>📰 Fake News e desinformação</h2>
+
+                <p class="artigo-autor">
+                    Por: Nawanna Garcia
+                </p>
+
+                <p>
+                    A internet permite que uma informação seja
+                    compartilhada rapidamente. Porém, nem tudo que
+                    encontramos nas redes sociais é verdadeiro.
+                </p>
+
+                <p>
+                    <strong>Proposta de solução:</strong>
+                    antes de compartilhar uma notícia, devemos verificar
+                    a fonte, procurar a mesma informação em outros sites
+                    confiáveis e observar a data da publicação.
+                </p>
+
+                <button>❤️ <span>0</span></button>
+                <button>👎 <span>0</span></button>
+            </div>
+
+            <div>
+                <img src="fake-news.jpeg"
+                    alt="Celular mostrando informações falsas"
+                    class="imagem">
+            </div>
+
+        </article>
+    </main>
+
+
+    <!-- DILEMA 3 -->
+    <main>
+        <article>
+
+            <div>
+                <h2>🤖 Inteligência Artificial</h2>
+
+                <p class="artigo-autor">
+                    Por: Nawanna Garcia
+                </p>
+
+                <p>
+                    A inteligência artificial pode ajudar nos estudos,
+                    no trabalho e em diversas tarefas. Porém, seu uso
+                    exagerado pode fazer com que as pessoas deixem de
+                    desenvolver suas próprias habilidades.
+                </p>
+
+                <p>
+                    <strong>Proposta de solução:</strong>
+                    utilizar a inteligência artificial como ferramenta
+                    de apoio, mas sempre conferir as informações e
+                    desenvolver o próprio raciocínio antes de aceitar
+                    uma resposta como verdadeira.
+                </p>
+
+                <button>❤️ <span>0</span></button>
+                <button>👎 <span>0</span></button>
+            </div>
+
+            <div>
+                <img src="inteligencia-artificial.jpeg"
+                    alt="Inteligência artificial representada por um cérebro digital"
+                    class="imagem">
+            </div>
+
+        </article>
+    </main>
+
+
+    <!-- DILEMA 4 -->
+    <main>
+        <article>
+
+            <div>
+                <h2>📱 Uso excessivo das redes sociais</h2>
+
+                <p class="artigo-autor">
+                    Por: Nawanna Garcia
+                </p>
+
+                <p>
+                    Passar muitas horas no celular pode prejudicar a
+                    concentração, diminuir o tempo dedicado a outras
+                    atividades e dificultar o equilíbrio entre a vida
+                    digital e a vida real.
+                </p>
+
+                <p>
+                    <strong>Proposta de solução:</strong>
+                    estabelecer horários para utilizar o celular,
+                    fazer pausas durante o dia e reservar momentos
+                    para atividades sem telas, como exercícios,
+                    leitura e convivência com familiares e amigos.
+                </p>
+
+                <button>❤️ <span>0</span></button>
+                <button>👎 <span>0</span></button>
+            </div>
+
+            <div>
+                <img src="redes-sociais.jpeg"
+                    alt="Pessoa utilizando redes sociais no celular"
+                    class="imagem">
+            </div>
+
+        </article>
+    </main>
+
+
+    <!-- DILEMA 5 -->
+    <main>
+        <article>
+
+            <div>
+                <h2>💬 Cyberbullying</h2>
+
+                <p class="artigo-autor">
+                    Por: Nawanna Garcia
+                </p>
+
+                <p>
+                    O cyberbullying acontece quando uma pessoa sofre
+                    agressões, humilhações ou ameaças por meio da
+                    internet. Comentários ofensivos podem causar
+                    consequências sérias para quem os recebe.
+                </p>
+
+                <p>
+                    <strong>Proposta de solução:</strong>
+                    não participar de ataques virtuais, bloquear e
+                    denunciar contas que praticam agressões e procurar
+                    ajuda de adultos ou pessoas de confiança quando
+                    uma situação de cyberbullying acontecer.
+                </p>
+
+                <button>❤️ <span>0</span></button>
+                <button>👎 <span>0</span></button>
+            </div>
+
+            <div>
+                <img src="cyberbullying.jpeg"
+                    alt="Pessoa sofrendo cyberbullying através do celular"
+                    class="imagem">
+            </div>
+
+        </article>
+    </main>
+
+
+    <footer>
+        <p>
+            2026 Dilemas Digitais | Desenvolvido por Nawanna Garcia
+        </p>
+
+        <p>
+            Tecnologia consciente começa com informação e responsabilidade.
+        </p>
+    </footer>
+
+
+    <script>
+
+        const botoes = document.querySelectorAll("button");
+
+        botoes.forEach(function (botao) {
+
+            let curtiu = false;
+
+            botao.addEventListener("click", botaoClicado);
+
+            function botaoClicado() {
+
+                let texto = botao.querySelector("span");
+
+                if (curtiu === false) {
+
+                    texto.textContent++;
+
+                    curtiu = true;
+
+                } else {
+
+                    texto.textContent--;
+
+                    curtiu = false;
+                }
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>
